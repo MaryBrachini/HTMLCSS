@@ -1,0 +1,92 @@
+/*Geral*/
+body{
+    text-align: center;
+    padding:20px;
+}
+a{
+    text-decoration: none;
+    color:grey;
+}
+h4{
+    font-size:15px;
+    font-weight:bold;
+}
+li{
+    display:inline-block;
+}
+/*EndGeral*/
+
+
+/*Listagem*/
+.li1{
+    width:100px;
+    border-right:dotted 2px lightgray;
+    text-align: center; 
+}
+.li2{
+    font-size:15px;
+    border-right:1px solid lightgray;
+    width:100px;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.t{
+    padding-left: 40px;
+}
+.ul1{
+    margin-left: 60%;
+    color:gray;
+}
+
+.ul2{
+    margin-top:40px;
+    border-bottom:1px solid lightgray ;
+    border-top:1px solid lightgray;
+    text-align: left;
+    width:95%;
+}
+/*EndListagem*/
+
+
+
+
+/*logo*/
+.l{
+    border:lightgray 1px solid;
+    width:100%;
+    margin-bottom: 20px;
+}
+/*EndLogo*/
+
+.ll{
+    text-align: left;
+}
+.tar{
+    float:right;
+}
+.tra{
+    float:left;
+}
+
+.link{
+    padding-left: 20px;
+}
+.p{
+    font-size:14px;
+    border-bottom:solid lightgray 1px;
+    text-align: left;
+}
+.b{
+    font-family: comic-sans;
+    font-size: 50px;
+    font-style: italic;
+    color:red;
+    font-weight:bold;
+}
+.pro{
+    border-left:lightgray 1px solid;
+}
+.esp{
+    margin-right: 10px;
+}
