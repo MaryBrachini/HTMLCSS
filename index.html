@@ -9,20 +9,42 @@
 
     </head>
     <body>
+
+        <!--Propaganda-->
+        <div class="divado">
+            <span class="close">x</span>
+            <img class="ado" src="images/generico.jpg" alt="propaganda"/> 
+        </div>
+        <script>
+            var closebtns = document.getElementsByClassName("close");
+            var i;
+
+            for (i = 0; i < closebtns.length; i++) {
+                closebtns[i].addEventListener("click", function () {
+                    this.parentElement.style.display = 'none';
+                });
+            }
+        </script>
+        <!--EndPropaganda-->
+
         <ul class="ul1">
             <li class="li1"><a href="https://instagram.com/">Instagram</a></li>
             <li class="li1"><a href="https://facebook.com/">Facebook</a></li>
             <li class="t"><a href="https://twitter.com/">Twitter</a></li>
         </ul>
-        <ul class="ul2">
-            <li class="li2"><a href="#">HOME</a></li>
-            <li class="li2"><a href="#">INFOS</a></li>
-            <li class="li2"><a href="#">SERVIÇOS</a></li>
-            <li class="li2"><a href="#">PROJETOS</a></li>
-            <li class="li2"><a href="#">BLOG</a></li>
-            <li class="li2"><a href="#">CONTATO</a></li>
-        </ul>
-        
+
+        <header>
+            <ul class="ul2">
+                <li class="li2"><a href="#">HOME</a></li>
+                <li class="li2"><a href="#">INFOS</a></li>
+                <li class="li2"><a href="#">SERVIÇOS</a></li>
+                <li class="li2"><a href="#">PROJETOS</a></li>
+                <li class="li2"><a href="#">BLOG</a></li>
+                <li class="li2"><a href="#">CONTATO</a></li>
+            </ul>
+
+        </header>
+
         <div class="container">
 
             <img class="l" src="images/slider01.gif" alt="logo">
@@ -30,7 +52,7 @@
                 <div class="col-md-8 ll">
                     <h4  class="p">Nota de boas vindas</h4>
                     <img class="tar" src="images/highlight.gif" alt="imagem">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    <p style=" background-color: white;padding: 5px;height: 170px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                         unknown printer took a galley of type and scrambled it to make a type specimen
                         book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -49,10 +71,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 ll">
+                <div class="col-md-8 ll" style="padding-top: 20px">
                     <h4 class="p">ULTIMOS PROJETOS</h4>
+                    
                     <div class="pro">
-                        <div>
+                        <div style=" background-color: white;padding: 5px">
                             <img src="images/project01.jpg" class="tra esp" alt="projeto 1">
                             <p><h4>TÍTULO</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -64,8 +87,7 @@
 
                     <br/>
 
-
-                    <div>
+                    <div style=" background-color: white;padding: 5px">
                         <img src="images/project02.jpg" class="tra esp" alt="projeto 1">
                         <p><h4>TÍTULO</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -76,7 +98,7 @@
 
                     <br/>
 
-                    <div>
+                    <div style=" background-color: white;padding: 5px">
                         <img src="images/project03.jpg" class="tra esp" alt="projeto 1">
                         <p><h4>TÍTULO</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -87,7 +109,7 @@
 
                     <br/>
 
-                    <div>
+                    <div style=" background-color: white;padding: 5px">
                         <img src="images/project04.jpg" class="tra esp" alt="projeto 1">
                         <p><h4>TÍTULO</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -98,22 +120,42 @@
 
                     <br/>
 
-
                 </div>
                 <br/>
-                <div class="col-md-4">
+                <div class="col-md-4" style=" background-color: white;height:775px;">
                     <p class="b">Compre Agora</p> 
+                    
                     <p class="p">PROPAGANDA</p>
-
+                    
                     <img class="" src="images/ad01.gif" alt="propaganda">
                     <img class="tar" src="images/ad02.gif" alt="propaganda">
+                    
                     <p class="p">TÍTULO</p>
+                    
+                    <p class="ll">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever
+                        since the 1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.</p> 
+                    
+                    <p class="p">PROPAGANDA</p>
+                    
+                    <img class="" src="images/ad01.gif" alt="propaganda">
+                    <img class="tar" src="images/ad02.gif" alt="propaganda">
+                    
+                    <p class="p">TÍTULO</p>
+                    
                     <p class="ll">Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum has been the industry's standard dummy text ever
                         since the 1500s, when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book.</p>
                 </div>
+                
+                
             </div>
         </div>
+
+        <footer style="padding-top: 20px">
+            <p>Esta página foi editada pela última vez em 22 de outubro de 2021, às 17:00.</p>
+        </footer>
     </body>
 </html>

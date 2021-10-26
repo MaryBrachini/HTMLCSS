@@ -2,6 +2,7 @@
 body{
     text-align: center;
     padding:20px;
+    background-color: white;
 }
 a{
     text-decoration: none;
@@ -13,6 +14,10 @@ h4{
 }
 li{
     display:inline-block;
+}
+.container{
+    padding: 3%;
+    background-color: lightgray;
 }
 /*EndGeral*/
 
@@ -44,11 +49,9 @@ li{
     border-bottom:1px solid lightgray ;
     border-top:1px solid lightgray;
     text-align: left;
-    width:95%;
+    width:99%;
 }
 /*EndListagem*/
-
-
 
 
 /*logo*/
@@ -90,3 +93,29 @@ li{
 .esp{
     margin-right: 10px;
 }
+
+/* Propaganda*/
+.divado{
+    padding-left: 70%;
+    position:fixed;
+    padding-right:2%;
+    margin-top:30px;
+    width: 1250px;
+    height: 1000px;
+   
+}
+.ado{
+   width: 370px;
+    height: 400px;
+}
+.close {
+    width: 370px;
+    height: 25px;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(0%, -50%);
+}
+
+.close:hover {background: #bbb;}
+/* EndPropaganda*/
