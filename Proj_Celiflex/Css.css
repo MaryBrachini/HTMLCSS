@@ -1,7 +1,77 @@
-/* 
-    Created on : 28/10/2021, 22:08:22
-    Author     : Aluno
-*/
-body{
-    
+/*Geral*/
+input{
+    padding: 16px 32px;
+    text-align: center;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
+/*FimGeral*/
+
+
+/*Login*/
+.div_login{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.central{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.img{
+    height: 30%;
+    width:70%;
+
+}
+
+.entrar{
+    background-color: yellow;
+    border:1px green solid;
+}
+.buttonL {
+    padding: 16px 32px;
+    text-align: center;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1 {
+    background-color: yellow; 
+    color: black; 
+    border: 2px solid greenyellow;
+}
+
+.button1:hover {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid greenyellow;
+}
+/*FimLogin*/
+
+/*TelaInicial*/
+.faixa{
+    background-color: lightgreen;
+    color: white;
+    padding: 15px 32px;
+}
+.buttonTI{
+    background-color: white;
+    padding: 10px 32px;
+    border-radius: 5px;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;}
+.iconTI{
+    margin-right: 5px;
+}
+/*FimTelaInicial*/
