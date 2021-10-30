@@ -6,28 +6,38 @@ input{
     border-radius: 5px;
     border: 1px solid gray;
 }
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main;}
+.item4 { grid-area: right; }
+.item5 { grid-area: footer;
+         color: white;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'menu main right' 
+        'footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+
+}
 /*FimGeral*/
 
 
 /*Login*/
-.div_login{
+
+.login{
     border: 1px black solid;
     border-radius: 5px;
     padding: 15px;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
-.central{
-    text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
-.img{
-    height: 30%;
-    width:70%;
-
+    margin-top: 15px;
+    background-color: white; 
 }
 
 .entrar{
@@ -70,8 +80,53 @@ input{
 }
 a{
     text-decoration: none;
-    color: black;}
+    color: black;
+}
 .iconTI{
     margin-right: 5px;
+    /*vertical-align: middle;*/
 }
 /*FimTelaInicial*/
+
+/*Clintes*/
+.faixaCli{
+    background-color: white;
+    color: black;
+    padding: 15px 32px;   
+}
+
+.it1 { grid-area: header; }
+.it2 { grid-area: menu; }
+.it3 { grid-area: main;}
+.it22 { grid-area: menu22; }
+.it33 { grid-area: main33;}
+.it222 { grid-area: menu222; }
+.it333 { grid-area: main333;}
+.it5 { grid-area: footer;
+       color: white;}
+
+.grid-container2 {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'menu main ' 
+        'menu22 main33 ' 
+        'menu222 main333 ' 
+        'footer footer ';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container2 > div {
+    text-align: center;
+}
+
+.itdiv{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white; 
+}
+
+/*Clintes*/
