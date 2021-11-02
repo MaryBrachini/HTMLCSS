@@ -1,49 +1,64 @@
 /*Geral*/
-input{
+
+input {
     padding: 16px 32px;
     text-align: center;
     margin: 8px;
     border-radius: 5px;
     border: 1px solid gray;
 }
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main;}
-.item4 { grid-area: right; }
-.item5 { grid-area: footer;
-         color: white;}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item4 {
+    grid-area: right;
+}
+
+.item5 {
+    grid-area: footer;
+    color: white;
+}
 
 .grid-container {
     display: grid;
-    grid-template-areas:
-        'header header header'
-        'menu main right' 
-        'footer footer footer';
+    grid-template-areas: 'header header header' 'menu main right' 'footer footer footer';
     grid-gap: 10px;
     padding: 10px;
 }
 
-.grid-container > div {
+.grid-container>div {
     text-align: center;
-
 }
+
+
 /*FimGeral*/
 
 
 /*Login*/
 
-.login{
+.login {
     border: 1px black solid;
     border-radius: 5px;
     padding: 15px;
     margin-top: 15px;
-    background-color: white; 
+    background-color: white;
 }
 
-.entrar{
+.entrar {
     background-color: yellow;
-    border:1px green solid;
+    border: 1px green solid;
 }
+
 .buttonL {
     padding: 16px 32px;
     text-align: center;
@@ -53,8 +68,8 @@ input{
 }
 
 .button1 {
-    background-color: yellow; 
-    color: black; 
+    background-color: yellow;
+    color: black;
     border: 2px solid greenyellow;
 }
 
@@ -63,70 +78,104 @@ input{
     color: black;
     border: 2px solid greenyellow;
 }
+
+
 /*FimLogin*/
 
+
 /*TelaInicial*/
-.faixa{
+
+.faixa {
     background-color: lightgreen;
     color: white;
     padding: 15px 32px;
 }
-.buttonTI{
+
+.buttonTI {
     background-color: white;
     padding: 10px 32px;
     border-radius: 5px;
-
-
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.iconTI{
+
+.iconTI {
     margin-right: 5px;
     /*vertical-align: middle;*/
 }
+
+
 /*FimTelaInicial*/
 
-/*Clintes*/
-.faixaCli{
-    background-color: white;
-    color: black;
-    padding: 15px 32px;   
-}
 
-.it1 { grid-area: header; }
-.it2 { grid-area: menu; }
-.it3 { grid-area: main;}
-.it22 { grid-area: menu22; }
-.it33 { grid-area: main33;}
-.it222 { grid-area: menu222; }
-.it333 { grid-area: main333;}
-.it5 { grid-area: footer;
-       color: white;}
+/*Clintes*/
+
+.faixaCli {
+    background-color: rgb(100, 199, 100);
+    color: white;
+    padding: 15px 32px;
+}
 
 .grid-container2 {
-    display: grid;
-    grid-template-areas:
-        'header header'
-        'menu main ' 
-        'menu22 main33 ' 
-        'menu222 main333 ' 
-        'footer footer ';
-    grid-gap: 10px;
-    padding: 10px;
-}
-
-.grid-container2 > div {
     text-align: center;
 }
 
-.itdiv{
+.itdiv {
     border: 1px black solid;
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
     margin-top: 15px;
-    background-color: white; 
+    background-color: white;
+    width: 90%;
+    margin-left: 3%;
 }
+
+.content {
+    padding: 20px;
+    display: none;
+    overflow: hidden;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.buttonC {
+    background-color: #80ff80;
+    color: white;
+    padding: 16px 32px;
+    border: 2px solid #80ff80;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.buttonC:hover {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.lupa {
+    width: 16px;
+    height: 16px;
+    float: right;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 
 /*Clintes*/
