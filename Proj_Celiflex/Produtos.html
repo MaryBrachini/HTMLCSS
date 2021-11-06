@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Produtos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Css.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .row {
+            display: -webkit-flex;
+            display: flex;
+        }
+        /* Create three equal columns that sits next to each other */
+        
+        .column {
+            text-align: center;
+            margin: 5px;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            padding: 10px;
+            height: 300px;
+            border: 1px black solid;
+            border-radius: 5px;
+            background-color: white;
+        }
+        
+        @media (max-width: 400px) {
+            .row {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-repeat: no-repeat;background-image: linear-gradient(#ccff80, #80ff80);background-color: #80ff80">
+
+    <div class="grid-container2">
+        <div>
+            <img src="img/LOGO CELIFLEX COREW-250x250.jpg" alt="" />
+        </div>
+
+        <h2 class="faixaCli">Produtos</h2>
+
+
+    </div>
+
+    <div>
+
+        <div class="row">
+            <div class="column">
+                <img src="img/colchao.jpg" alt="" style="width: 200px; height: auto;" />
+                <div>
+                    <p><b>Produto 1</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="img/colchao.jpg" alt="" style="width: 200px; height: auto;" />
+                <div>
+                    <p><b>Produto 2</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="img/colchao.jpg" alt="" style="width: 200px; height: auto;" />
+                <div>
+                    <p><b>Produto 3</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="img/colchao.jpg" alt="" style="width: 200px; height: auto;" />
+                <div>
+                    <p><b>Produto 4</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="img/colchao.jpg" alt="" style="width: 200px; height: auto;" />
+                <div>
+                    <p><b>Produto 5</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="img/colchao.jpg" alt="" style="width: 200px; height: auto;" />
+                <div>
+                    <p><b>Produto 6</b></p>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#">«</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">»</a>
+            </div>
+        </div>
+
+    </div>
+    <footer class="rodape">@Copyright ITEP-Brasil</footer>
+
+
+
+</body>
+
+</html>
